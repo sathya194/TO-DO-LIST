@@ -1,0 +1,36 @@
+*{margin: 0px;
+    padding: 0px;}
+    body{background-color: rgb(201, 73, 233);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: sans-serif;
+    }
+    
+    #warpper{
+        height: 500px;
+        width: 450px;
+        display: flex;
+        background-color: rgb(79, 166, 241);
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 3px 5px 10px rgb(0, 0,0,0.5);
+        border-radius: 10px;
+    }
+    input{
+        width: 200px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    button{
+        font-size: 20px;
+        justify-content: center;
+        width: 150px;
+        height: 30px; 
+        border-radius: 10px;
+        background-color: rgb(132, 9, 247);
+    }
+    p{
+        padding: 10px;
+    }
